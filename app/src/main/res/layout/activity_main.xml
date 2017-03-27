@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="youn0045.kr.hs.emirim.simplecalculator.MainActivity">
+    tools:context="com.example.sojun.simplecalculator.MainActivity">
 
-    <TextView
+<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -17,13 +17,13 @@
         />
 
     <EditText
-        android:id="@+id/edit_first"
+        android:id="@+id/edit_1"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:hint="정수 값으로 입력 " />
 
     <EditText
-        android:id="@+id/edit_second"
+        android:id="@+id/edit_2"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:hint="정수 값으로 입력 " />
